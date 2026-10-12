@@ -1,0 +1,25 @@
+h1 {color: red;
+    font-size: 40px;
+    text-decoration: underline;
+}
+p {
+    color: black;
+    background-color: white;
+    font-size: 18px;
+}
+.test {
+    color: rgb(0, 68, 255);
+    background-color: lime;
+    font-size: 24px;
+}
+th {
+    padding: 5px;
+}
+.today {
+    color: white;
+    background-color: Blue;
+}
+td {
+    padding: 5px;
+    text-align: center;
+}
