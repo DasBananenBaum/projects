@@ -1,9 +1,28 @@
+body {
+    background-image: linear-gradient(to right, yellow,orange,red);
+}
 h1 {
     text-align: center;
     color:black;
     font-size: 300%;
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container {
+    display: grid;
+    margin-left: 30%;
+    grid-template-columns: 420px 300px 300px;
+    grid-template-rows: 185px 200px 200px;
+    gap: 1em;
+    grid-template-areas:"box-2  box-1 box-1"
+                        "box-2  box-3 box-3";
+}
+.item {
+    color: black;
+    text-align: left;
+    font-size: 100%;
+    gap: 2px;
+    background-color: rgb(213,213,213);
 }
 p {
     color: black;
@@ -59,6 +78,11 @@ td:hover {
     opacity: 30%;
     background-color: grey;
 }
+h3  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    text-decoration: underline;
+}
 ul {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -67,28 +91,4 @@ ul {
     width: 90%;
     position: relative;
     bottom:20px;
-}
-h3  {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 140%;
-    text-decoration: underline;
-}
-.grid-container {
-    display: grid;
-    margin-left: 30%;
-    grid-template-columns: 420px 300px 300px;
-    grid-template-rows: 185px 200px 200px;
-    gap: 1em;
-    grid-template-areas:"box-2  box-1 box-1"
-                        "box-2  box-3 box-3";
-}
-.item {
-    color: black;
-    text-align: left;
-    font-size: 100%;
-    gap: 2px;
-    background-color: rgb(213,213,213);
-}
-body {
-    background-image: linear-gradient(to right, yellow,orange,red);
 }
